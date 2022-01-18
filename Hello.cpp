@@ -15,3 +15,9 @@ int sub(int a, int b)
 	int c = a-b;
 	return c;
 }
+
+int mult(int a, int b)
+{
+	int c;
+	c = a * b;
+}
