@@ -8,6 +8,7 @@ int main()
 {
 	cout << "Hello World!!!" << endl;
 	sub(4,5);
+	divison(10,5);
 }
 
 int sub(int a, int b)
@@ -20,4 +21,10 @@ int mult(int a, int b)
 {
 	int c;
 	c = a * b;
+}
+
+int divison (int a, int b)
+{
+	int c = a/b;
+	return c;
 }
