@@ -3,6 +3,7 @@
 using namespace std;
 
 int sub(int, int);
+int divison(int, int);
 
 int main()
 {
@@ -26,6 +27,11 @@ int mult(int a, int b)
 
 int divison (int a, int b)
 {
-	int c = a/b;
-	return c;
+	if (b != 0)
+	{
+		int c = a/b;
+		return c;
+	}
+	else 
+		return 0;
 }
