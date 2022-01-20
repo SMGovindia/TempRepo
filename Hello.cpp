@@ -8,6 +8,7 @@ int main()
 {
 	cout << "Hello World!!!" << endl;
 	sub(4,5);
+	mult(3,4);
 	divison(10,5);
 }
 
