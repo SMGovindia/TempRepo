@@ -3,6 +3,7 @@
 using namespace std;
 
 int sub(int, int);
+int divison(int, int);
 
 int main()
 {
